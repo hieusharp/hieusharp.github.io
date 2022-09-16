@@ -1212,7 +1212,7 @@ const autoCompleteJS = new autoComplete({
 				return error;
 			}
 		},
-		keys: ["name","symbol"],
+		keys: ["n","sb"],
 		cache: true,
 		filter: (list) => {
 			// Filter duplicates
